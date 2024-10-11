@@ -14,7 +14,7 @@ func main() {
 
 	err := telegram.NewTelegram(ctx)
 	if err != nil {
-		fmt.Printf("cannot start telegram bot: %w", err)
+		fmt.Printf("cannot start telegram bot: %v", err)
 		os.Exit(1)
 	}
 
